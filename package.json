@@ -1,0 +1,39 @@
+{
+  "name": "jptv-sheet-music-infograph",
+  "version": "1.0.0",
+  "description": "JPTV Sheet Music Inforgraph",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-inline-react-svg": "^0.5.2",
+    "graphql": "^0.13.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "svg-react-loader": "^0.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.4.2",
+    "react-test-renderer": "^16.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amypellegrini/jptv-sheet-music-infograph.git"
+  },
+  "author": "Amy Pellegrini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amypellegrini/jptv-sheet-music-infograph/issues"
+  },
+  "homepage": "https://github.com/amypellegrini/jptv-sheet-music-infograph#readme"
+}
