@@ -6,6 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'jptv-infograph.bundle.js'
   },
+  mode: 'development',
   module: {
     rules: [
       {
