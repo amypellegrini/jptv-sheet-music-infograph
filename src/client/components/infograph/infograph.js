@@ -1,4 +1,4 @@
-import MozartExample from '../assets/mozart-sonate-kv-331-example.svg';
+import MozartExample from '../../assets/mozart-sonate-kv-331-example.svg';
 
 export default React => {
   class Infograph extends React.Component {
